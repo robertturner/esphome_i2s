@@ -16,8 +16,8 @@
 namespace esphome {
 namespace i2s_audio {
 
-static const uint32_t DMA_BUFFER_DURATION_MS = 15;
-static const size_t DMA_BUFFERS_COUNT = 4;
+static const uint32_t DMA_BUFFER_DURATION_MS = 15*8;
+static const size_t DMA_BUFFERS_COUNT = 8;
 
 static const size_t TASK_STACK_SIZE = 4096;
 static const ssize_t TASK_PRIORITY = 19;
